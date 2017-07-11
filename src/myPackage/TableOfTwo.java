@@ -1,3 +1,7 @@
+/**
+ * Q2) Write a program to display table of 2.
+ * */
+
 package myPackage;
 
 public class TableOfTwo {

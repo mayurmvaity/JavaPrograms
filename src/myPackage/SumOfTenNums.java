@@ -1,3 +1,7 @@
+/**
+ * Q3) Write a program in java to accept 10 numbers and display the sum of those numbers
+ * */
+
 package myPackage;
 
 import java.util.Scanner;

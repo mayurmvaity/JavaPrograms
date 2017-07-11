@@ -1,3 +1,8 @@
+/**
+ * Q1) Write a program to create four functionsfor Addition, Subtraction, Multiplication and Division. 
+ * */
+
+
 package myPackage;
 
 public class Calculator {

@@ -1,3 +1,8 @@
+/**
+ * Q2 write a program to swap two numbers w/o using third variable
+ * */
+
+
 package myPackage;
 
 import java.util.Scanner;

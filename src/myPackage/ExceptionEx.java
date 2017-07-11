@@ -1,3 +1,8 @@
+/**
+ * Exception handling example
+ * */
+
+
 package myPackage;
 import java.util.Scanner;
 public class ExceptionEx

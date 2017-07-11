@@ -1,3 +1,8 @@
+/**
+ * Q - Try with resources example
+ * */
+
+
 package myPackage;
 import java.util.Scanner;
 public class TryWithResources

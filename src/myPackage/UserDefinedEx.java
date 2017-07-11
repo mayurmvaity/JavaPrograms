@@ -1,3 +1,7 @@
+/**
+ * User defined exception example
+ * */
+
 package myPackage;
 import java.util.Scanner;
 

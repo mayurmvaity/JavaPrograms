@@ -1,3 +1,8 @@
+/**
+ * Q Write a program to use ArrayList which will contain students data and display students data.
+ *  Name, age, city and state.
+ * */
+
 package myPackage;
 import java.util.Scanner;
 public class NG
