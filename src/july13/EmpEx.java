@@ -51,6 +51,11 @@ al1.add(s5);
 
 }
 
+public void getStu()
+{
+	
+}
+
 void getMaxSal()
 {
 Iterator it1 = al1.iterator();
