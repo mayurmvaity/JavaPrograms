@@ -25,7 +25,7 @@ public class UniqueWordCount {
 		String[] a = st.split("\\s");
 		
 		// calling disp method
-		System.out.print("Given st words: ");
+		System.out.print("Words in the given Sentence: ");
 		this.displayStArray(a);
 		
 		// 
@@ -50,9 +50,9 @@ public class UniqueWordCount {
 		}
 		
 		// disp b
-		this.dispAL(b);
+		// this.dispAL(b);
 		
-		System.out.println("Size: "+b.size());
+		// System.out.println("Size: "+b.size());
 		
 		// putting data in a HashMap
 		Iterator it = b.iterator();
@@ -62,7 +62,7 @@ public class UniqueWordCount {
 			c.put(tmp, 0);
 		}
 		
-		System.out.println(c);
+		// System.out.println(c);
 		
 		
 		Set st1 = c.entrySet();
@@ -88,7 +88,9 @@ public class UniqueWordCount {
 			}
 		}
 		
-		System.out.println(c);
+		// System.out.println(c);
+		this.displayMap(c);
+		
 		
 	}
 	
@@ -109,6 +111,19 @@ public class UniqueWordCount {
 			System.out.print(it.next()+" ");
 		}
 		System.out.println();
+	}
+	
+	public void displayMap(Map c)
+	{
+		System.out.println();
+		System.out.println("Counts: ");
+		Set st1 = c.entrySet();
+		Iterator it1 = st1.iterator();
+		while(it1.hasNext())
+		{
+			Map.Entry me = (Map.Entry) it1.next();
+			System.out.println(me.getKey()+": "+me.getValue());
+		}
 	}
 	
 	public static void main(String args[])
